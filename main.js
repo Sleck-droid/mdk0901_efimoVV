@@ -41,4 +41,6 @@ document.querySelector('.adv').remove();
     
     books[5].querySelectorAll('li')[books[5].querySelectorAll('li').length-1].before(books[5].querySelectorAll('li')[3]);
     books[5].querySelectorAll('li')[books[5].querySelectorAll('li').length-2].before(books[5].querySelectorAll('li')[2]);
-    
+
+// 6
+books[2].querySelector('ul').append(document.createElement('li').textContent='Глава 8: За пределами ES6');
