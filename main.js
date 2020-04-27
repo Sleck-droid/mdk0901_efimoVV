@@ -7,3 +7,7 @@ books[5].style.order = '1';
 
 //2
 document.body.style.backgroundImage = 'url("image/adv.jpg")';
+
+
+// 3
+books[4].querySelector('h2>a').textContent = 'Книга 3. this и Прототипы Объектов';
